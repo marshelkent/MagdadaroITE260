@@ -1,0 +1,54 @@
+name = str(input('enter name : '))
+age =int(input('enter age :'))
+
+print  (name +' '+ str(age))
+
+ANSWER:enter name : Joel John
+enter age : 19
+19
+Joel John 19
+
+
+fname = str(input('enter fname : '))
+lname =str(input('enter lname :'))
+gender =str(input('enter gender :'))
+phonenumber =int(input('enter phonenumber :'))
+location =str(input('enter location :'))
+
+print  (fname,lname,gender,phonenumber,location)
+
+ANSWER: enter fname : Joel John
+enter lname : Magdadaro
+Magdadaro
+enter gender : Male
+Male
+enter phonenumber :09384119209
+enter location :Talisay City
+Joel John Magdadaro Male 9384119209 Talisay City
+
+num1 = int(input('first number :'))
+num2 = int(input('second number :'))
+
+sum = num1 + num2
+print(str(num1),' + ' ,(str(num2)),' = ',sum)
+
+ANSWER= first number :1
+second number :2
+1  +  2  =  3
+> 
+
+studentname = str(input('enter student name :'))
+science = int(input(' enter science average :'))
+math = int(input(' enter math average :'))
+it = int(input(' enter it average :'))
+ethics = int(input(' enter ethics average :'))
+
+average = ((math + science + it + ethics)/4)
+print (studentname,average)
+
+ANSWER=enter student name :Joel John
+enter science average :89
+enter math average :86
+enter it average :85
+enter ethics average :88
+Joel John 87.0
