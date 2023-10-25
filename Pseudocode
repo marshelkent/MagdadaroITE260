@@ -1,0 +1,53 @@
+
+
+GET the n and get the number
+
+IF n is greater than 0
+
+DISPLAY “POSITIVE”
+
+ELSE 
+
+DISPLAY “NEGATIVE”
+
+ENDIF
+
+
+
+
+GET n and get the number
+
+IF n divided by 2
+
+
+DISPLAY “NUMBER IS EVEN”
+
+ELSE
+
+DISPLAY “NUMBER IS ODD”
+
+ENDIF
+
+
+READ a,b and c
+
+IF a is greater than b
+
+                IF a is greater than b
+
+                ELSE  
+                
+DISPLAY “a is greatest”
+
+ENDIF
+
+IF b is greater than c
+
+                IF a is greater than b
+                
+
+
+                ELSE  
+                DISPLAY “b is greatest”
+
+                ENDIF
