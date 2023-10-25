@@ -1,0 +1,60 @@
+num1 = int(input('enter number: '))
+
+if num1 >= 1:
+           print('Positive')
+else:
+           print('Negative')
+enter number: 0
+Negative
+
+name = input('Student Name:')
+print ('\nPlease input'+ '' + name + "'s grades \n")
+
+sci = float(input('enter grade:'))
+math = float(input('enter grade:'))
+fil = float(input('enter grade:'))
+it = float(input('enter grade:'))
+eng = float(input('enter grade:'))
+
+sum=(sci+math+fil+it+eng)
+avg=sum/5
+
+print(name + "'s average is " + str(avg))
+
+if avg >=85:
+    print('with highest honor')
+elif avg >=80 and avg<=84:
+    print('with honor')
+elif avg >=75 and avg<=79:
+    print('above pass')
+else:
+    print('fail')
+
+Student Name:Jimmuel
+
+Please inputJimmuel's grades 
+
+enter grade:74
+enter grade:74
+enter grade:74
+enter grade:74
+enter grade:74
+Jimmuel's average is 74.0
+fail
+
+print ('enter your credentials')
+user = input('username:')
+password = input('password:')
+
+username='joelgwapo123'
+password='123456789'
+
+if user == username and password == password:
+    print('login')
+else:
+    print('invalid')
+
+enter your credentials
+username:joelgwapo123
+password:123456789
+login
