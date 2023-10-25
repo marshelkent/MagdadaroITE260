@@ -1,0 +1,44 @@
+car_brands = ["Toyota", "Honda", "Ford", "Chevrolet", "BMW"]
+
+
+car_brands.append("Mercedes-Benz")
+car_brands.append("Volkswagen")
+car_brands.append("Audi")
+
+
+print(car_brands)
+
+ANSWER=['Toyota', 'Honda', 'Ford', 'Chevrolet', 'BMW', 'Mercedes-Benz', 'Volkswagen', 'Audi']
+
+
+
+
+motor_brands = ["Volkswagen", "Honda", "Nissan", "Suzuki", "BMW"]
+
+motor_brands.insert(3, "Hyundai")
+print("Updated array after inserting a value at index 3:", motor_brands)
+del motor_brands[-1]
+print("Array after deleting the last index:", motor_brands)
+
+ANSWER=Updated array after inserting a value at index 3: ['Volkswagen', 'Honda', 'Nissan', 'Hyundai', 'Suzuki', 'BMW']
+Array after deleting the last index: ['Volkswagen', 'Honda', 'Nissan', 'Hyundai', 'Suzuki']
+
+
+fruit_types = ["Apple", "Banana", "Cherry", "Orange", "Grape"]
+print("Original array of fruit types:", fruit_types)
+fruit_types[4] = "Pineapple"
+print("Updated array after changing the value at index 4:", fruit_types)
+
+ANSWER=Original array of fruit types: ['Apple', 'Banana', 'Cherry', 'Orange', 'Grape']
+Updated array after changing the value at index 4: ['Apple', 'Banana', 'Cherry', 'Orange', 'Pineapple']
+
+animals = ["Lion", "Elephant", "Giraffe", "Tiger", "Zebra"]
+
+print("Original array of animals:", animals)
+
+animals.remove("Tiger")
+
+print("Updated array after removing 'Tiger':", animals)
+
+ANSWER=Original array of animals: ['Lion', 'Elephant', 'Giraffe', 'Tiger', 'Zebra']
+Updated array after removing 'Tiger': ['Lion', 'Elephant', 'Giraffe', 'Zebra']
