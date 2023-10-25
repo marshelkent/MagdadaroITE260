@@ -1,0 +1,29 @@
+print ('please share the information asked for:')
+
+name = input('enter name:')
+age = int(input('enter age:'))
+ 
+print(name +' '+ str(age))
+
+please share the information asked for:
+enter name:Nina
+enter age:34
+Nina 34
+
+
+num1 = 46
+num2 = 76
+
+sum = num1 + num2
+print('the out of the 2 numbers is ', sum )
+the out of the 2 numbers is  122
+
+
+cars = ['Toyota', ' mazda','lambo','suzuki','tesla']
+cars.append('BWM')
+del cars[1]
+
+print (cars)
+
+['Toyota', 'lambo', 'suzuki', 'tesla', 'BWM']
+
